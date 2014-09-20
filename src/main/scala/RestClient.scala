@@ -38,7 +38,7 @@ object RestClient extends App {
 
     val query = params("-d").mkString("&")
     /**
-     * Applying string interpolation (injecting local variables in the result String object) with of StringContext.
+     * Applying string interpolation (injecting local variables in the result String object) via StringContext.
      * @see StringContext
      */
     val httpGet = new HttpGet(s"${url}?${query}")

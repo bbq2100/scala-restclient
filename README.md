@@ -36,3 +36,9 @@ How to use it?
 --------------
 > sbt run (post | get | delete | options) -d <request parameters comma separated -h <headers comma separated> <url>
 (at least you should specify action(post, get, delete, options) and server url)
+
+Example request
+---------------
+> run get "http://www.mocky.io/v2/541e88178e50c2fd0153438f"
+[info] Running RestClient get http://www.mocky.io/v2/541e88178e50c2fd0153438f
+Hello World

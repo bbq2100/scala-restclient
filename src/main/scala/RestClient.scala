@@ -87,7 +87,7 @@ object RestClient extends App {
 
   def handleDeleteRequest = {
     val httpDelete = new HttpDelete(url)
-    val httpResponse = new DefaultHttpClient().execute(HttpDelete)
+    val httpResponse = new DefaultHttpClient().execute(httpDelete)
     println(httpResponse.getStatusLine)
   }
 

@@ -39,6 +39,6 @@ How to use it?
 
 Example request
 ---------------
-> run get "http://www.mocky.io/v2/541e88178e50c2fd0153438f"
-[info] Running RestClient get http://www.mocky.io/v2/541e88178e50c2fd0153438f
-Hello World
+ > run get "http://www.mocky.io/v2/541e88178e50c2fd0153438f"
+ [info] Running RestClient get http://www.mocky.io/v2/541e88178e50c2fd0153438f
+ Hello World
